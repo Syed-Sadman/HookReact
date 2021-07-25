@@ -1,5 +1,6 @@
 import React from 'react';
-import HookCount from './HookCount';
+//import HookCount from './HookCount';
+import UseEffectHook from './UseEffectHook';
 
 
 
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div>
-      <HookCount/>
+      <UseEffectHook/>
+      {/* <HookCount/> */}
     </div>
   );
 }
